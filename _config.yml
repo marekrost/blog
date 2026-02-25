@@ -1,12 +1,12 @@
 title: Marek Rost
 description: Personal Blog
-url: "https://www.marekrost.cz"
+url: "https://marekrost.cz"
 baseurl: ""
 lang: cs
 
 author:
   name: Marek Rost
-  url: "https://www.marekrost.cz/about/"
+  url: "https://marekrost.cz/about/"
 
 social:
   name: Marek Rost
