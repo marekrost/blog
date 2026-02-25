@@ -1,0 +1,14 @@
+<footer class="site-footer">
+  <div class="container">
+    <p>
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      {% for link in site.social.links %} &middot;
+      {% if link contains 'github.com' %}<a rel="me" href="{{ link }}">GitHub</a>
+      {% elsif link contains 'linkedin.com' %}<a rel="me" href="{{ link }}">LinkedIn</a>
+      {% elsif link contains 'twitter.com' %}<a rel="me" href="{{ link }}">Twitter</a>
+      {% else %}<a rel="me" href="{{ link }}">{{ link | split: '//' | last | split: '/' | first | remove: 'www.' }}</a>
+      {% endif %}{% endfor %} &middot;
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+    </p>
+  </div>
+</footer>

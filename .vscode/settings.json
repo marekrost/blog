@@ -1,0 +1,7 @@
+{
+  "scss.validate": true,
+  "liveSassCompile.settings.autoCompile": false,
+  "liveSassCompile.settings.excludeList": ["**/assets/css/**"],
+  "scssToCss.enableAutoprefixer": false,
+  "scssToCss.compile": false
+}

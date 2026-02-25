@@ -1,0 +1,51 @@
+title: Marek Rost
+description: Personal Blog
+url: "https://www.marekrost.cz"
+baseurl: ""
+lang: cs
+
+author:
+  name: Marek Rost
+  url: "https://www.marekrost.cz/about/"
+
+social:
+  name: Marek Rost
+  links:
+    - https://github.com/marekrost
+    - https://www.linkedin.com/in/marek-rost
+    - https://x.com/marekrost
+
+twitter:
+  username: marekrost
+
+permalink: /:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+include:
+  - _pages
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+  - .jekyll-cache
+  - vendor
