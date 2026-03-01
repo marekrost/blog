@@ -1,0 +1,32 @@
+This repository uses a split licensing model:
+
+## Blog Content — CC BY-NC-ND 4.0
+
+All blog content, including posts, pages, and their associated media
+(text, images, diagrams, etc.), is licensed under the
+Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+
+This applies to:
+  _posts/
+  _pages/
+
+See LICENSE-CONTENT for the full license text.
+
+## Custom Assets — MIT License
+
+All custom source code, templates, stylesheets, and configuration
+created for this site is licensed under the MIT License.
+
+This applies to:
+  _layouts/
+  _includes/
+  _plugins/
+  assets/
+
+See LICENSE-CODE for the full license text.
+
+## Third-Party Dependencies
+
+Third-party frameworks, libraries, and plugins (e.g., Jekyll and its
+plugins) retain their original licenses as distributed by their
+respective authors.
